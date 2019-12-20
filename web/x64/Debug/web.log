@@ -1,0 +1,27 @@
+﻿  main.cpp
+c:\users\mahmoud\source\repos\web\web\main.cpp(7): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  TcpListener.cpp
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(17): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(44): error C2065: 'm_master': undeclared identifier
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(49): error C2065: 'm_master': undeclared identifier
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(79): error C2065: 'm_master': undeclared identifier
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(97): error C2065: 'm_master': undeclared identifier
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(99): error C2660: 'TcpListener::onClientConnected': function does not take 1 arguments
+  c:\users\mahmoud\source\repos\web\web\tcplistener.h(24): note: see declaration of 'TcpListener::onClientConnected'
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(115): error C2660: 'TcpListener::onClientDisconnected': function does not take 1 arguments
+  c:\users\mahmoud\source\repos\web\web\tcplistener.h(26): note: see declaration of 'TcpListener::onClientDisconnected'
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(117): error C2065: 'm_master': undeclared identifier
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(122): warning C4244: 'argument': conversion from 'SOCKET' to 'int', possible loss of data
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(159): error C2065: 'm_master': undeclared identifier
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(165): error C2065: 'm_master': undeclared identifier
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(168): error C2065: 'm_master': undeclared identifier
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(174): error C2065: 'm_master': undeclared identifier
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(182): error C2761: 'void TcpListener::sentToClient(int,const char *,int)': redeclaration of member is not allowed
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(183): error C2447: '{': missing function header (old-style formal list?)
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(188): error C2447: '{': missing function header (old-style formal list?)
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(199): error C2761: 'void TcpListener::onClientConnected(void)': redeclaration of member is not allowed
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(201): error C2447: '{': missing function header (old-style formal list?)
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(204): error C2761: 'void TcpListener::onClientDisconnected(void)': redeclaration of member is not allowed
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(205): error C2447: '{': missing function header (old-style formal list?)
+c:\users\mahmoud\source\repos\web\web\tcplistener.cpp(209): error C2447: '{': missing function header (old-style formal list?)
+  Generating Code...
